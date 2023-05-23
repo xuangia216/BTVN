@@ -1,0 +1,33 @@
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+    .product_list {
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    .product_list {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+    .content {
+      flex-direction: column;
+    }
+    .sidebar {
+      width: 100%;
+      box-sizing: border-box;
+    }
+    .search {
+      flex-direction: row;
+      flex: 1;
+    }
+    .search > input {
+      flex: 1;
+      width: 0;
+    }
+  }
+  
+  @media screen and (max-width:480px) {
+    .top_bar {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  }

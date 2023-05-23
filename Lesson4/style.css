@@ -1,0 +1,80 @@
+.body {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.header {
+    display: flex;
+    padding: 10px 20px;
+    align-items: center;
+    background-color: #4caf50;
+}
+
+.menu {
+    display: flex;
+}
+
+.menu p {
+
+    font-weight: 500;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 0 48px;
+    border-right: 2px black solid;
+    cursor: pointer;
+
+}
+
+.no_border {
+    border-right: none !important;
+}
+
+.logo {
+    font-weight: bold;
+    font-size: 32px;
+    padding-right: 200px;
+    padding-left: 64px;
+}
+
+.welcome {
+    background-color: black;
+    border-bottom: 1px #fff solid;
+}
+
+.hi_text {
+    color: #fff;
+    font-size: 24px;
+    font-weight: 500;
+    display: flex;
+    align-self: center;
+    justify-content: center;
+}
+
+.about_me {
+    background-color: #000;
+}
+
+.about_me_text {
+    color: green;
+    font-size: 24px;
+    font-weight: 500;
+    align-self: center;
+    justify-content: center;
+    display: flex;
+
+}
+
+.container {
+    display: flex;
+    background-color: black;
+}
+
+img{
+    width: 48px;
+    padding-left: 100px;
+}
+
+.about_me_text{
+    color: #fff;
+}
