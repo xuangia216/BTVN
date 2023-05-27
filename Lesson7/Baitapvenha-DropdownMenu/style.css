@@ -30,7 +30,7 @@ nav {
 
 #main-menu li {
     position: relative;
-    border-right: 1px solid white;
+    border-right: 1px solid #f8f8f8;
 
 }
 
@@ -45,9 +45,9 @@ nav {
     padding: 0px 0px;
     list-style: none;
     width: 360px;
-    border: 1px solid white;
+    border: 1px solid #f8f8f8;
     display: none;
-    border-bottom-left-radius: 5px;
+    border-bottom-left-radius: 10px;
     border-right: none;
 }
 
@@ -57,13 +57,12 @@ nav {
 
 #main-menu ul.sub-menu a {
     padding: 8px 16px;
-    border-bottom: 1px solid white;
-    left: 0px;
+    border-bottom: 1px solid #f8f8f8;
+    left: 10px;
 }
 
-#main-menu ul.sub-menu li:last-child a {
-    border: none;
-    border-bottom-left-radius: 5px;
+#main-menu ul.sub-menu {
+    border-bottom-left-radius: 10px;
 }
 
 #main-menu ul.sub-menu li:hover>a {
@@ -75,8 +74,4 @@ nav {
     left: 360px;
     top: -1px;
 
-}
-
-#main-menu ul.sub-menu ul.sub-menu>a {
-    border-bottom: 1px solid white;
 }
