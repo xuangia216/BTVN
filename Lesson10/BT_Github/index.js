@@ -1,5 +1,4 @@
-// Bài số 1:
-
+// Đề bài số 1:
 // cho 1 mảng 
 // arrayData = [
 //    {
@@ -30,6 +29,8 @@
 // STT: 3 - Họ tên : Nguyen Van C - 17 tuoi
 // STT: 4 - Họ tên : Nguyen Van D - 18 tuoi
 //-----------------------------------------
+
+//Bài làm
 
 /*let person1 ={
     id: 1,
@@ -65,12 +66,14 @@ console.log("STT:",person4.id,"- Họ tên:",person4.name, "-",person4.age,"tuoi
 
 
 
-//Bài số 2:
+//Đề bài số 2:
 //function getUpperCaseName(string){}
 // Expected results:
 //console.log(getUpperCaseName("Nguyen van a")) // "NGUYEN VAN A"
 //console.log(getUpperCaseName("nGuyen vAn C")) // "NGUYEN VAN C"
 //-----------------------------------------
+
+//Bài làm
 
 /*console.log(person1.name.toUpperCase());
 console.log(person2.name.toUpperCase());
@@ -80,13 +83,15 @@ console.log(person4.name.toUpperCase());*/
 
 
 
-//Bài số 3:
+//Đề bài số 3:
 //function joinWithCharacter(array, charactor) {}
 // Ví dụ khi sử dụng
 //var cars = ['Honda', 'Mazda', 'Mercedes'];
 //var result = joinWithCharacter(cars, ' - ');
 //console.log(result); // Expected: "Honda - Mazda - Mercedes"
 //-----------------------------------------
+
+//Bài làm
 
 /*const cars =['Honda', 'Mazda', 'Mercedes'];
 let result =cars.join("-");
@@ -95,7 +100,7 @@ console.log(result);*/
 //-----------------------------------------
 
 
-//Bài số 4: 
+//Đề bài số 4: 
 // Viết hàm tại đây
 // Ví dụ sử dụng
 /*var animals = ['Monkey', 'Tiger', 'Elephant'];
@@ -104,6 +109,7 @@ console.log(result); // Expected: "Elephant"
 console.log(animals); // Expected: ['Monkey', 'Tiger', 'Elephant']*/
 //-----------------------------------------
 
+//Bài làm 
 /*let animals = ['Monkey', 'Tiger', 'Elephant'];
 console.log(animals);
 let result = animals[animals.length-1]
@@ -112,7 +118,7 @@ console.log(`A last Element in array is: ${result}`);*/
 //-----------------------------------------
 
 
-//Bài số 5:
+//Đề bài số 5:
  // Viết hàm tại đây
 // Ví dụ sử dụng
 //var animals = ['Monkey', 'Tiger', 'Elephant'];
@@ -121,6 +127,8 @@ console.log(`A last Element in array is: ${result}`);*/
 //console.log(animals); // Expected: ['Monkey', 'Tiger', 'Elephant']
 //-----------------------------------------
 
+//Bài làm
+
 /*let animals = ['Monkey', 'Tiger', 'Elephant'];
 console.log(animals);
 console.log(`A first element in array is: ${animals[0]}`);*/
@@ -128,7 +136,7 @@ console.log(`A first element in array is: ${animals[0]}`);*/
 //-----------------------------------------
 
 
-//Bài số 6: 
+//Đề bài số 6: 
 /*const sports = [
     {
         name: 'Bóng rổ',
@@ -147,6 +155,8 @@ console.log(`A first element in array is: ${animals[0]}`);*/
 console.log(getMostFavoriteSport(sports)) 
 // Output: [{ name: 'Bóng rổ, like: 6 }, { name: 'Bóng đá, like: 10 }]*/
 
+//Bài làm
+
 /*let sports =[
     {name:"Bóng đá",like: 10},
     {name:"Bơi lội",like: 5},
@@ -161,7 +171,7 @@ console.log(mostFavoriteSport);*/
 //-----------------------------------------
 
 
-//Bài số 7:
+//Đề bài số 7:
 /*
 var sports = [
     {
@@ -183,6 +193,9 @@ var sports = [
 ]
 //Expected results:
 console.log(getTotalGold(sports)) // Output: 23*/
+
+//Bài làm
+
 /*let sports =[
     {name:"Bơi lội",gold: 11},
     {name:"Boxing",gold: 3},
@@ -197,7 +210,7 @@ console.log(`Total gold medal is ${sum}`);*/
 
 //-----------------------------------------
 
-//Bài số 8: 
+//Đề bài số 8: 
 /*var listStudent = [
     { id: 1, name: "Nguyen Van A", age: 15 },
     { id: 2, name: "Nguyen Van B", age: 13 },
@@ -216,6 +229,8 @@ console.log(sortArray(listStudent))
     // { id: 1, name: "Nguyen Van A", age: 15 },
     // { id: 3, name: "Nguyen Van C", age: 18 },
 // ]*/
+
+//Bài làm
 
 /*let listStudent = [
     { id: 1, name: "Nguyen Van A", age: 15 },
